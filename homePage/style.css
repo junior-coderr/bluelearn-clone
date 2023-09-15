@@ -1017,6 +1017,11 @@ video {
   padding-bottom: 16px;
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .text-left {
   text-align: left;
 }
