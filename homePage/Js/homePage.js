@@ -154,10 +154,7 @@ function expand(e){
     if(prewE != null){
         prewE.classList.toggle('black');
     }
-    if(prewE2 != null){
-        prewE2.classList.toggle('black');
-    }
-    if(window.innerWidth < 730){
+    // if(window.innerWidth < 730){
 
         console.log('r');
         
@@ -183,8 +180,8 @@ function expand(e){
             prewE = e;
         }
 
-    }else{
-        prewE2 = e;
+    // }else{
+        // prewE2 = e;
         let clone = e.nextElementSibling.cloneNode(true);
         clone.style.transform='scaleY(1)';
         clone.style.display='block';
@@ -196,7 +193,9 @@ function expand(e){
             document.querySelector(".answer").replaceChild(clone,document.querySelector(".answer").children[0]);
         }
         
-        console.log(e.nextElementSibling);
+        // console.log(e.nextElementSibling);
 
-    }
+    // }
 }
+
+expand(document.querySelector(".elemC"));

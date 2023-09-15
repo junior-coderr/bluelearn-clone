@@ -142,7 +142,12 @@ color: black;
     transition-duration: .3s;
     transform-origin: top;
     display: none;
+    height: 100%;
+    width: 100%;
+    font-size: 17px;
 }
+
+
 @keyframes anim2 {
     from { transform: translateX(0%);}
     to{ transform: translateX(-100%);}
@@ -158,6 +163,16 @@ color: black;
     .fixed-margin{
         max-width: 720px;
     }
+
+.faqs-container{
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-right: solid black 4px;
+    border-bottom: solid black 4px;
+    border-radius: 15px;
+    padding: 50px;
+}
+
 }
 
 @media screen and (min-width: 985px) {
