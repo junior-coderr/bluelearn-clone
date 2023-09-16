@@ -1,5 +1,7 @@
 *{
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 .scroll-side{
 scroll-behavior: auto;
@@ -147,6 +149,21 @@ color: black;
     font-size: 17px;
 }
 
+.footer-icons{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 50PX;
+    font-size: 17px;
+  
+}
+
+.btm{
+    font-size: clamp(0px,24vw,320px);
+}
 
 @keyframes anim2 {
     from { transform: translateX(0%);}
