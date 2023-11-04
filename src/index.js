@@ -9,4 +9,6 @@ app.use('/',express.static(path.join(__dirname,'../homePage')));
 app.set('view engine', 'hbs');
 
 
-app.listen(port);
+app.listen(port,()=>{
+    console.log('listening on port '+port);
+});
